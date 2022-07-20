@@ -2,7 +2,7 @@
 
 echo "<head><title></title></head>";
 $fp = fopen("booking.txt", "r");
-    echo "<center><h1><a href='tampilan.php'>Data Pemesanan</a></h1>";
+    echo "<center><h1>Data Pemesanan</h1>";
 echo "<table border='1' align='center'>";
     echo "<tr><td>Nama </td><td> Alamat</td><td> Email </td><td> Phone </td><td> Layanan </td></tr>";
 while ($isi = fgets($fp)) {
@@ -11,6 +11,7 @@ while ($isi = fgets($fp)) {
 }
 fclose($fp);
 echo "</table><br><br>";
+echo "<a href='tampilan.php'>Klik Disini</a>";
 echo "</center><br>";
 
 //buka file counter mode baca
