@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+              <div class="header">
+                     <div class="list-item">
+                      <a href="home.html">
+                      <span class="description-header">BARBERSHOP</span>
+                    </a>
+                  </div>
+              </div>
+              <div class="main"><br><br><br>
+                  <div class="list-item">
+                        <a href="home.html">
+                      <span class="description">HOME</span>
+                        </a>
+                  </div><br>
+                  <div class="list-item">
+                        <a href="about.html">
+                      <span class="description">ABOUT</span>
+                        </a>
+                  </div><br>
+                  <div class="list-item">
+                        <a href="service.html">
+                      <span class="description">SERVICES</span>
+                        </a>
+                  </div><br>
+                  <div class="list-item">
+                        <a href="price.html">
+                      <span class="description">PRICES</span>
+                        </a>
+                  </div><br>
+                  <div class="list-item">
+                        <a href="contact.html">
+                      <span class="description">CONTACT</span>
+                        </a>
+                  </div><br>
+                  <div class="list-item">
+                        <a href="tampilan.php">
+                      <span class="description">BOOK NOW</span>
+                        </a>
+                  </div>
+              </div>
+          </div>
+        <div class="main-content">
+            <section id="contact">
+                <h2>CONTACT</h2><br>
+                <div class="containerContact">
+                    <div class="element1">
+                        <h3>Kolaborasi atau Kemitraan</h3>
+                        <div style="margin-left:100px">
+                            <br><br><br><br><p align="left">
+                                Alamat : <font color="#111287"> Jl. Samanhudi N0 48-50. Pasar Baru. Jawa Barat</font><br><br>
+                                Telepon : <font color="#111287"> 021-3435432</font><br><br>
+                                Email : <font color="#111287"> barber.shop@gmail.com</font><br><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="element2">
+                        <h3>Hubungi Kami</h3><br>
+                        <form method="post" id="fform" name="fform">
+                            <div class="bagan"><br>
+                            <div class="input-control">
+                                <input type="text" id="contact-nama" placeholder="Nama">&ensp;
+                                <input type="text" id="contact-email" placeholder="Email">
+                            </div>
+                            <div class= "input-control">
+                                <input type="text" id="contact-subyek" placeholder="Subyek">&ensp;
+                                <input type="text" id="contact-hp" placeholder="Nomor Handphone">
+                            </div>
+                            <div class="input-control">
+                                <textarea rows="5" id="contact-pesan" placeholder="Pesan"></textarea>
+                            </div>
+                        </div>
+                            <button onclick="return validateForm()">Submit</button>  
+                        </form>
+                    </div>  
+                </div> <br><br><br><br><br><br><br><br><br><br>
+          </section>
+              <footer>
+                <div class="copyright">
+                    <p><strong><font color="#EEEEEE">&copycopyright by BarberShop </strong></p></font>
+                </div>
+            </footer>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
